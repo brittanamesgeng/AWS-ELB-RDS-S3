@@ -1,0 +1,183 @@
+INFO:root:2019-03-16 16:05:34.306137
+INFO:root:average load: 26.78
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:05:34] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:05:34] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:05:52] "GET /main? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:05:54] "GET /s3_bucket? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:05:55] "GET /main? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:05:57] "GET /ec2_worker? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:06:32] "GET /main? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:07:10] "GET /ec2_worker? HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:08:12.615508
+INFO:root:average load: 26.67
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:08:12] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:08:13] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:09:14.709754
+INFO:root:average load: 26.83
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:09:14] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:09:15] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:10:16.513006
+INFO:root:average load: 26.33
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:10:16] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:10:16] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:11:19.695789
+INFO:root:average load: 26.95
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:11:19] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:11:20] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:12:12] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:13:11] "GET /ec2_worker/i-0dc12a5044d7b079c? HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:13:23] "GET /ec2_worker? HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:14:24.785264
+INFO:root:average load: 3.61
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:14:24] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:14:25] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:15:26.352386
+INFO:root:average load: 3.73
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:15:26] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:15:26] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:16:28.784233
+INFO:root:average load: 3.61
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:16:28] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:16:29] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:17:30.964909
+INFO:root:average load: 4.17
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:17:30] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:17:31] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:18:34.615362
+INFO:root:average load: 12.83
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:18:34] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:18:35] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:19:38.264267
+INFO:root:average load: 21.86
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:19:38] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:19:38] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:20:41.648691
+INFO:root:average load: 29.18
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:20:41] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:20:42] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:21:46.649543
+INFO:root:average load: 39.33
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:21:46] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:21:47] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:22:49.379577
+INFO:root:average load: 43.33
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:22:49] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:22:49] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:23:52.702009
+INFO:root:average load: 48.67
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:23:52] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:23:53] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:24:56.693742
+INFO:root:average load: 51.69
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:24:56] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:24:57] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:26:00.999638
+INFO:root:average load: 47.38
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:26:01] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:26:01] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:27:03.883580
+INFO:root:average load: 48.64
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:27:03] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:27:04] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:28:06.516614
+INFO:root:average load: 48.85
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:28:06] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:28:06] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:29:08.409715
+INFO:root:average load: 46.1
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:29:08] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:29:08] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:30:10.407981
+INFO:root:average load: 31.15
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:30:10] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:30:10] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:31:12.613382
+INFO:root:average load: 6.83
+INFO:root:max_threshold: 80
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:31:12] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:31:13] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:32:14.650639
+INFO:root:average load: 4.75
+INFO:root:max_threshold: 70
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:32:14] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:32:15] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:33:18.945424
+INFO:root:average load: 10.5
+INFO:root:max_threshold: 70
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:33:18] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:33:19] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 16:34:20.510568
+INFO:root:average load: 14.0
+INFO:root:max_threshold: 70
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 12:34:20] "POST /manage_worker_pool HTTP/1.1" 302 -

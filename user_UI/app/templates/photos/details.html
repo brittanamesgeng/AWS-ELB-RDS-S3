@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="margin">
+        <a href="{{url_for('thumbnails')}}">Back to album</a>
+    </div>
+
+    <div style="margin: auto">
+  {% for url in url_list %}
+
+      <div style="width:49%; float: left; margin: 2px">
+          <img style="width:100%; float: left" src = '{{url}}' />
+      </div>
+
+  {% endfor %}
+    </div>
+
+{% endblock %}

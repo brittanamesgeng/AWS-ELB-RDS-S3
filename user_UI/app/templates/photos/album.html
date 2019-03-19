@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="margin">
+        <form action="{{url_for('upload_form')}}" method="get">
+            <input type="submit" value="Upload Photo">
+        </form>
+    </div>
+
+    <div id="album">
+    {% for photo_id, url, filename in zipped_data %}
+
+     <a href="{{url_for('details',photo_id=photo_id)}}"><img src = '{{url}}' /> </a>
+
+    {% endfor %}
+    </div>
+{% endblock %}

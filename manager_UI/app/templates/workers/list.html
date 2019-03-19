@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="{{ url_for('static', filename='flot/jquery.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='flot/jquery.flot.js') }}"></script>
+        <title>WorkerHome</title>
+        <style>
+
+
+*,:
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+ body{
+	margin:0;
+	/*color:#6a6f8c;*/
+	/*background:#c8c8c8;*/
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+.login-wrap{
+	width:100%;
+	margin:auto;
+	min-height:1000px;
+	/*position:relative;*/
+    background:url(https://i0.wp.com/pakish.pk/wp-content/uploads/2018/05/website-login-background.jpg?ssl=1) no-repeat center;
+	/*box-shadow:0 12px 15px 0 rgba(0,0,0,0.1),0 17px 50px 0 rgba(0,0,0,0.1);*/
+    filter: Alpha(Opacity=50);
+    opacity:0.9;
+}
+
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	/*padding:20px 40px 40px 40px;*/
+	/*background:rgba(208,217,225, 0.8);*/
+}
+
+/*h1 {*/
+/*font-family: Verdana;*/
+  /*font-weight: normal;*/
+  /*!*color: #024457;*!*/
+  /*!*span {color: #167F92;}*!*/
+/*}*/
+
+
+
+
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	/*margin-right:15px;*/
+	/*padding-bottom:5px;*/
+	/*margin:0 15px 10px 0;*/
+	display:inline-block;
+	border-bottom: solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:rgb(216,96,18);
+	border-color:rgb(216,96,18);
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	/*margin-bottom:10px;*/
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:200px;
+	color:#fff;
+	display: block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	*padding:10px 20px;
+	border-radius:25px;
+	/*background:rgba(255,255,255,.1);*/
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	/*color:#aaa;*/
+	font-size:12px;
+}
+.login-form .group .button{
+	background:rgba(216,96,18,0.6);
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	/*background:rgba(255,255,255,.1);*/
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	/*left:3px;*/
+	/*width:5px;*/
+	/*bottom:6px;*/
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	/*top:6px;*/
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:rgb(216,96,18);
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	/*background:rgba(255,255,255,.2);*/
+}
+.foot-lnk{
+	text-align:center;
+}
+
+
+
+.backbtn {
+    width: 100px;
+    height: 30px;
+    margin-left: 30px;
+    /*background-color: rgb(216,96,18);*/
+
+    border:none;
+	*padding:10px 20px;
+	border-radius:25px;
+    background:rgba(216,96,18,0.6);
+}
+
+.cancelbtn {
+    width: 10%;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.detail_button {
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+    /*background-color: rgb(216,96,18);*/
+    border:none;
+	*padding:10px 20px;
+	border-radius:25px;
+    background:rgba(216,96,18,0.6);
+}
+
+th, td {
+text-align: center;
+      vertical-align: middle;
+}
+
+
+
+
+</style>
+
+
+    </head>
+
+    <body>
+
+<div class="login-wrap">
+    <div class="login-html">
+        <div class="login-form">
+
+            <center>
+                <br><br>
+       <h1 style="color: rgb(216,96,18)">AWS <span>Worker</span> Pool</h1>
+            </center>
+
+            <form action='{{url_for("main")}}' method='get'>
+                <button type="submit" class="backbtn"> Back </button>
+            </form>
+
+ <center>
+<form  action="{{url_for('auto_manage')}}" method='post'>
+    <div class = 'user_set'>
+
+
+        <th style="color:rgb(216,96,18)"><font size="2"  style="color:rgb(216,96,18)">Min Threshold</font></th >
+        <select name="min_threshold">
+            <span style="color:rgb(216,96,18)">Min Threshold </span>
+            <option id="mint0" value="Please select"> Please Select </option>
+            <option id="mint1" value="20"> 20</option>
+            <option id="mint2" value="30"> 30</option>
+            <option id="mint3" value="40"> 40</option>
+            <option id="mint4" value="5"> 50</option>
+        </select>
+
+        <th style="color:rgb(216,96,18)"><font size="2"  style="color:rgb(216,96,18)">Max Threshold</font></th >
+        <select name="max_threshold">
+            <span style="color:rgb(216,96,18)">Max Threshold </span>
+            <option id="maxt0" value="Please select"> Please Select </option>
+            <option id="maxt1" value="50"> 50</option>
+            <option id="maxt2" value="60"> 60</option>
+            <option id="maxt3" value="70"> 70</option>
+            <option id="maxt4" value="20"> 80</option>
+            <option id="maxt5" value="30"> 90</option>
+        </select>
+
+        <button type="submit" id=""> save</button>
+
+    </div>
+</form>
+     <form name = "my_form" action="{{url_for('manage_worker_pool')}}" method='post'>
+         <!--<button type="submit" id="apply_user_set"> start function</button>-->
+     </form>
+
+     <div>
+        <p style="color:white;">Current min threshold = {{ min_threshold }}
+                                Current max threshold = {{ max_threshold }}</p >
+     </div>
+
+
+
+</center>
+
+ <center>
+     <from>
+     <div style="display: block">
+            <form action="{{url_for('ec2_create')}}" method="post">
+                <div class="group" >
+                    <p style="color:rgb(216,96,18)"><font size="4">Add New Worker</font></p >
+                <input type="submit" class="button" value="New">
+                </div>
+			</form>
+
+            <!--<form action="{{url_for('delete')}}" method='post' onsubmit='return confirm("Are you sure?")'>-->
+                <!--<div class="group" style="display: inline;float: left; margin-left: 50px">-->
+                <!--<p style="color:rgb(216,96,18)"><font size="4">Delete All Data</font></p >-->
+
+                <!--<input type="submit" class="button" value="Delete">-->
+                <!--</div>-->
+			<!--</form>-->
+       </div>
+         </from>
+ </center>
+
+<center>
+    <div class="table-users" style="margin-top: 100px;color: rgb(216,96,18)">
+
+    <div class="header" style="color: rgb(216,96,18)"></div>
+        <table cellspacing="0">
+
+        <tr>
+
+        <th>Instance ID</th>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Availability Zone</th>
+        <th>Status</th>
+        <th>Launch Time</th>
+
+
+        </tr>
+
+         {% for instance in instances %}
+        <tr>
+            <td>{{ instance.id }}</td>
+            {% for tag in instance.tags %}
+                 {% if tag['Key'] == 'Name' %}
+
+            <td>{{ tag['Value'] }}</td>
+
+            {% endif %}
+            {% endfor %}
+
+            <td>{{ instance.instance_type }}</td>
+            <td>{{ instance.placement['AvailabilityZone']}}</td>
+            <td>{{ instance.state['Name'] }}</td>
+            <td>{{ instance.launch_time}}</td>
+
+
+            <td>
+                <form action="{{url_for('ec2_view',id=instance.id)}}" method='get'>
+                    <input type='submit' class="detail_button" value='Details' />
+                </form>
+            </td>
+
+            <td>
+                <form action="{{url_for('ec2_destroy',id=instance.id)}}" method='post' onsubmit='return confirm("Are you sure?")'>
+                    <input type='submit' class="detail_button" value='Destroy' />
+                </form>
+            </td>
+
+        </tr>
+    {% endfor %}
+
+    </table>
+    </div></center></div>
+
+	</div>
+
+</center>
+
+
+</div>
+</body>
+</html>
+
+<script>
+
+    <!--window.setInterval(document.getElementById("apply_user_set").click(), 6000);-->
+
+    setInterval('my_form.submit()',60000);
+
+</script>

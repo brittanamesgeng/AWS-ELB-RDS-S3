@@ -1,0 +1,57 @@
+INFO:root:2019-03-16 17:56:52.744649
+INFO:root:average load: 30.34
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:56:52] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:56:53] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 17:57:54.314816
+INFO:root:average load: 29.67
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:57:54] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:57:54] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 17:58:56.056690
+INFO:root:average load: 30.17
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:58:56] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:58:56] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 17:59:57.542453
+INFO:root:average load: 44.17
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:59:57] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 13:59:58] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 18:00:58.963026
+INFO:root:average load: 48.5
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:00:58] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:00:59] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 18:02:00.534938
+INFO:root:average load: 35.33
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:02:00] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:02:00] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 18:03:02.090633
+INFO:root:average load: 22.33
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:03:02] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:03:02] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:root:2019-03-16 18:04:03.602884
+INFO:root:average load: 43.67
+INFO:root:max_threshold: 50
+INFO:root:min_threshold: 30
+INFO:root:instance number: 1
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:04:03] "POST /manage_worker_pool HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Mar/2019 14:04:04] "GET /ec2_worker HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/Users/yisheng/Developer/Github/AnswerTea/A2/manager_UI/app/workers.py', reloading
